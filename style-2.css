@@ -35,7 +35,7 @@ body.thoughts {
 }
 
 #badge img {
-  width: 25%;
+  width: 35%;
   margin-top: 2em;
 }
 
@@ -172,6 +172,21 @@ p {
   }
   .sectionTitle::before {
     left: -0.5em;
+  }
+
+  .thoughts div #right {
+    margin-left: 0;
+  }
+
+  .thoughts div #right {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .thoughts #medium-widget {
+    width: 100%;
   }
 }
 
