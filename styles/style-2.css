@@ -180,6 +180,15 @@ p {
     padding-left: 5%;
     margin-left: 5%;
   }
+
+  hr.divider#firstDivider {
+    display: block;
+    border-top: 1px solid rgba(128, 128, 128, 0.42);
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
   .sectionTitle::before {
     left: -0.5em;
   }
@@ -274,6 +283,7 @@ p {
   border-bottom: none;
   font-size: 1.3em;
 }
+
 .thoughts #right .medium-widget-article__item,
 .projects #right .medium-widget-article__item {
   font-size: 1.1em;
@@ -281,25 +291,68 @@ p {
 
 hr.divider {
   border-top: 1px solid rgba(128, 128, 128, 0.42);
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.card,
+hr#firstDivider {
+  display: none;
+}
+
+/* .card,*/
 .title {
   display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.appimg,
+.content {
+  display: block;
+  margin: auto;
 }
 
 img.appicon {
-  margin-top: 5%;
-}
-
-.card .appicon {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 0.2em;
   width: 2em;
   height: 2em;
 }
 
 .card .content {
-  margin-top: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.projects #right {
+  padding-left: 0;
+}
+
+.googlePlayBadge {
+  width: 30%;
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.tags {
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  word-spacing: 0.3em;
+}
+
+.created {
+  text-transform: lowercase;
+}
+
+.content h2 {
+  font-size: 1.4em;
+  color: #2e303b;
+}
+
+.content h3{
+  font-size: 1em;
+
 }
