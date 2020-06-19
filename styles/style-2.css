@@ -189,24 +189,23 @@ p {
   }
 }
 
-  .sectionTitle::before {
-    left: -0.5em;
-  }
+.sectionTitle::before {
+  left: -0.5em;
+}
 
-  .thoughts div #right {
-    margin-left: 0;
-  }
+.thoughts div #right {
+  margin-left: 0;
+}
 
-  .thoughts div #right {
-    max-width: 100%;
-    margin: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
+.thoughts div #right {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
-  .thoughts #medium-widget {
-    width: 100%;
-  }
+.thoughts #medium-widget {
+  width: 100%;
 }
 
 @-webkit-keyframes fadeIn {
@@ -330,7 +329,7 @@ img.appicon {
 }
 
 .googlePlayBadge {
-  width: 30%;
+  width: 15em;
   display: block;
   margin: auto;
   padding-top: 5%;
@@ -352,7 +351,14 @@ img.appicon {
   color: #2e303b;
 }
 
-.content h3{
+.content h3 {
   font-size: 1em;
+}
 
+.consulting #right .container {
+  display: flex;
+}
+
+.consulting #right .container div {
+  display: grid;
 }
