@@ -40,6 +40,19 @@ body.projects {
   margin-top: 2em;
 }
 
+#flutter img,
+#android img,
+#dart img,
+#java img {
+  height: 4em;
+  margin-top: 2em;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
 .thoughts #profileImgContainer,
 .thoughts .medium-widget-article__image img,
 .projects #profileImgContainer,
