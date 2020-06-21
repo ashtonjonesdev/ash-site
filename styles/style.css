@@ -176,6 +176,26 @@ p {
   transition: 0.5s;
 }
 
+.sectionTitle::before {
+  left: -0.5em;
+}
+
+.thoughts div #right {
+  margin-left: 0;
+}
+
+.thoughts div #right {
+  max-width: 100%;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.thoughts #medium-widget {
+  width: 80%;
+  margin: auto;
+}
+
 @media all and (max-width: 1300px) {
   .sectionTitle::before {
     left: -2%;
@@ -201,25 +221,10 @@ p {
     margin-left: 10%;
     margin-right: 10%;
   }
-}
 
-.sectionTitle::before {
-  left: -0.5em;
-}
-
-.thoughts div #right {
-  margin-left: 0;
-}
-
-.thoughts div #right {
-  max-width: 100%;
-  margin: auto;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.thoughts #medium-widget {
-  width: 100%;
+  .thoughts #medium-widget {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes fadeIn {
