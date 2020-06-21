@@ -108,7 +108,8 @@ body.projects {
 }
 
 .thoughts #right,
-.projects #right {
+.projects #right,
+.consulting #right {
   border: none;
 }
 
@@ -374,4 +375,64 @@ img.appicon {
 
 .consulting #right .container div {
   display: grid;
+}
+
+form {
+  -webkit-appearance: none;
+  width: 80%;
+  padding: 3%;
+  padding-bottom: 8%;
+}
+
+.form-group {
+  margin: 3%;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+
+.form-group input,
+.form-group textarea {
+  font-size: 1.1em;
+  font-family: Roboto;
+  font-weight: 100;
+  padding-top: 1%;
+  padding-left: 2%;
+  background: #333959;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+button {
+  background: none;
+  border-color: oldlace;
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 1px;
+  color: white;
+  width: 40%;
+  height: 8%;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-style: bold;
+  font-size: 1.2em;
+  display: block;
+  margin: auto;
+}
+
+/* change autocomplete styles in chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px #333959 inset !important;
+  -webkit-text-fill-color: white !important;
 }
