@@ -201,6 +201,10 @@ p {
     margin-left: 10%;
     margin-right: 10%;
   }
+
+  .button {
+    padding: 5%;
+  }
 }
 
 .sectionTitle::before {
@@ -423,14 +427,15 @@ button {
   border-radius: 12px;
   border-width: 1px;
   color: white;
-  width: 40%;
-  height: 8%;
+  width: auto;
+  height: auto;
   font-family: Roboto;
   text-transform: uppercase;
   font-style: bold;
   font-size: 1.2em;
   display: block;
   margin: auto;
+  padding: 2%;
 }
 
 /* change autocomplete styles in chrome*/
