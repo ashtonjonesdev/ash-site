@@ -360,20 +360,30 @@ img.appicon {
   text-transform: lowercase;
 }
 
-.content h2 {
+.projects .content h2 {
   font-size: 1.4em;
   color: #2e303b;
 }
 
-.content h3 {
+.projects .content h3 {
   font-size: 1em;
+  margin: auto;
 }
 
 .consulting #right .container {
   display: flex;
 }
 
-.consulting #right .container div {
+.consulting h1.form-header {
+  font-family: Roboto;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 0;
+  width: 80%;
+}
+
+.consulting #right .container .form-group {
   display: grid;
 }
 
