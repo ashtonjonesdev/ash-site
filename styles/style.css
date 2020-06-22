@@ -196,6 +196,15 @@ p {
   margin: auto;
 }
 
+.thoughts #android-engineer-widget {
+  width: 80%;
+  margin: auto;
+}
+
+.thoughts #android-engineer-widget a.medium-widget-article__image img {
+  height: 40%;
+}
+
 @media all and (max-width: 1300px) {
   .sectionTitle::before {
     left: -2%;
