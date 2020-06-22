@@ -454,5 +454,6 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 30px #333959 inset !important;
+  box-shadow: 0 0 0 30px #333959 inset !important;
   -webkit-text-fill-color: white !important;
 }
