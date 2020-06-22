@@ -191,11 +191,7 @@ p {
   padding-right: 1em;
 }
 
-.thoughts #medium-widget {
-  width: 80%;
-  margin: auto;
-}
-
+.thoughts #medium-widget,
 .thoughts #android-engineer-widget {
   width: 80%;
   margin: auto;
@@ -231,7 +227,8 @@ p {
     margin-right: 10%;
   }
 
-  .thoughts #medium-widget {
+  .thoughts #medium-widget,
+  .thoughts #android-engineer-widget {
     width: 100%;
   }
 }
