@@ -390,7 +390,6 @@ div#badges img.appleStoreBadge {
 
 div#badges img.googlePlayBadge {
   width: 13em;
-  margin-left: 3%;
   margin-top: 10%;
   margin-bottom: 5%;
 }
@@ -398,6 +397,7 @@ div#badges img.googlePlayBadge {
 div#badges a.appleStoreBadge {
   flex: 1 1 0px;
   text-align: right;
+  padding-right: 1%;
 }
 
 div#badges a.googlePlayBadge {
