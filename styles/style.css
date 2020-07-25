@@ -353,12 +353,39 @@ img.appicon {
   padding-left: 0;
 }
 
-.googlePlayBadge {
+._googlePlayBadge {
   width: 15em;
   display: block;
   margin: auto;
   padding-top: 5%;
-  padding-bottom: 5%;
+}
+
+.projects div#badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#badges img.appleStoreBadge {
+  width: 50%;
+  margin-left: 48%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+div#badges img.googlePlayBadge {
+  width: 55%;
+  margin-left: 3%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+div#badges a.appleStoreBadge {
+  flex: 1 1 0px;
+}
+
+div#badges a.googlePlayBadge {
+  flex: 1 1 0px;
 }
 
 .tags {
