@@ -219,6 +219,7 @@ p {
   div#badges img.appleStoreBadge {
     margin-top: 10% !important;
     margin-left: auto !important;
+    width: 13em !important;
   }
 
   div#badges img.googlePlayBadge {
@@ -245,6 +246,7 @@ p {
   .thoughts #android-engineer-widget {
     width: 100%;
   }
+}
 }
 
 @-webkit-keyframes fadeIn {
