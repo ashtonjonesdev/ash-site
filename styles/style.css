@@ -211,6 +211,20 @@ p {
   .sectionTitle::before {
     left: -2.5%;
   }
+
+  .projects div#badges {
+    flex-direction: column;
+  }
+
+  div#badges img.appleStoreBadge {
+    margin-top: 10% !important;
+    margin-left: auto !important;
+  }
+
+  div#badges img.googlePlayBadge {
+    margin: auto !important;
+    margin-bottom: 5% !important;
+  }
 }
 
 @media all and (max-width: 800px) {
@@ -367,14 +381,13 @@ img.appicon {
 }
 
 div#badges img.appleStoreBadge {
-  width: 50%;
-  margin-left: 48%;
+  width: 11.5em;
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
 div#badges img.googlePlayBadge {
-  width: 55%;
+  width: 13em;
   margin-left: 3%;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -382,6 +395,7 @@ div#badges img.googlePlayBadge {
 
 div#badges a.appleStoreBadge {
   flex: 1 1 0px;
+  text-align: right;
 }
 
 div#badges a.googlePlayBadge {
